@@ -1,0 +1,38 @@
+<!-- Lightbox markup -->
+<div class="lightbox-backdrop" id="lb">
+  <img class="lightbox-img" id="lbImg" alt="">
+</div>
+
+<script>
+// simple, dependency-free lightbox for .testi-photo
+(function(){
+  const lb = document.getElementById('lb');
+  const lbImg = document.getElementById('lbImg');
+
+  function openLB(src, alt){
+    lbImg.src = src;
+    lbImg.alt = alt || '';
+    lb.classList.add('active');
+    document.body.classList.add('lb-open');
+  }
+  function closeLB(){
+    lb.classList.remove('active');
+    document.body.classList.remove('lb-open');
+    // small delay before clearing src to avoid flash
+    setTimeout(()=>{ lbImg.src=''; }, 150);
+  }
+
+  // click any testimonial photo to open
+  document.addEventListener('click', function(e){
+    const img = e.target.closest('.testi-photo');
+    if (img){ openLB(img.getAttribute('src'), img.getAttribute('alt')); }
+    // click outside image closes
+    if (e.target === lb){ closeLB(); }
+  });
+
+  // ESC to close
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && lb.classList.contains('active')) closeLB();
+  });
+})();
+</script>

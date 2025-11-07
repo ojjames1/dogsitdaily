@@ -1,0 +1,50 @@
+---
+title: "Booking"
+---
+
+<div class="container">
+
+We run a small, safe setup — so returning clients can **book instantly**, and we ask new clients to complete a short form first so we can make sure we’re a great match. 🐶🐾
+
+## Returning customer? — Use our instant booking
+
+> This loads our live calendar and takes payment securely.
+
+<!-- Replace YOUR_OWNER_ID with your actual Squarespace Scheduling (Acuity) owner ID -->
+<iframe
+  class="embed-iframe"
+  src="https://app.squarespacescheduling.com/schedule.php?owner=YOUR_OWNER_ID"
+  title="Book with Dog Sit Daily">
+</iframe>
+
+If the embed doesn’t load, use the direct link:  
+**Book here →** <a href="https://app.squarespacescheduling.com/schedule.php?owner=YOUR_OWNER_ID" target="_blank">Open booking page</a>.
+
+---
+
+## New here? — Submit an Enquiry Form
+
+Please tell us a little about your dog so we can confirm availability and suitability.
+
+<p><a class="button" href="https://forms.gle/REPLACE_WITH_YOUR_GOOGLE_FORM_ID" target="_blank">New Client Enquiry Form</a></p>
+
+
+
+---
+
+## Our Cancellation Policy
+
+We understand that sometimes things change, so if you do need to cancel or amend your booking, please get in touch within 48hours of the booking start time for a full refund. Any cancellations or amendments made after this time will be subject to a £20 fee. 
+
+</div>
+
+---
+```{=html}
+<!-- Small footer logo hero -->
+<section class="hero-mini">
+  <div class="hero-inner">
+    <img src="images/DOGSITDAILY_LOGO.png" alt="Dog Sit Daily" class="logo" />
+  </div>
+</section>
+<div class="container">
+```

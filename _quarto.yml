@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "Dog Sit Daily"
+  description: "Trusted dog sitting, boarding, and walking in North London"
+  site-url: "https://dogsitdaily.co.uk"
+  favicon: images/DOGSITDAILY_LOGO.png
+  navbar:
+    logo: images/DOGSITDAILY_LOGO.png
+    collapse: true
+    right:
+      - text: "Menu"
+        menu:
+          - text: "Home"
+            href: index.qmd
+          - text: "About"
+            href: about.qmd
+          - text: "Testimonials"
+            href: testimonials.qmd
+          - text: "Booking"
+            href: booking.qmd
+
+  page-footer:
+    left: |
+      © 2025 Dog Sit Daily • Insured with <img src="images/PetplanSanctuaryLogo-White-120x60px.jpg" alt="Petplan" style="height:30px;vertical-align:middle;margin:0 4px;">
+    right: |
+      <a href="mailto:hello@dogsitdaily.co.uk">hello@dogsitdaily.co.uk</a>
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    page-layout: full          # wider canvas so your custom container controls width
+include-in-header: _head.html
+include-after-body: _lightbox.html 
+
+# simple variable for footer year
+metadata-files:
+  - _vars.yml
+

@@ -1,0 +1,133 @@
+---
+title: ""
+title-block: true
+---
+
+```{=html}
+<!-- Compact centered hero -->
+<section class="hero hero-compact">
+  <div class="hero-inner-center">
+    <img src="images/HOMEPAGE_LOGO.png" alt="Dog Sit Daily" class="logo" />
+
+    <div class="cta">
+      <img src="images/PetplanSanctuaryLogo-White-170x100px.jpg"
+           alt="Insured with Petplan" class="badge-insured-lg" />
+    </div>
+  </div>
+</section>
+<div class="container">
+
+
+<section class="services-wrap">
+  <h2>Services</h2>
+  <div class="services-grid">
+
+
+<div class="svc">
+  <div class="svc-name">Day Care</div>
+  <div class="svc-desc">
+    Home-from-home care, enrichment, and garden play. Small, safe groups only.
+    Photos & updates included.
+  </div>
+  <div class="svc-price">From £35/day</div>
+</div>
+
+<div class="svc">
+  <div class="svc-name">Boarding</div>
+  <div class="svc-desc">
+    Overnight stays with a cosy home-away-from-home setup and calm routine.
+    Photos & updates included.
+  </div>
+  <div class="svc-price">From £45/night</div>
+</div>
+
+<div class="svc">
+  <div class="svc-name">Group walks</div>
+  <div class="svc-desc">Coming soon!</div>
+  <div class="svc-price">From £—</div>
+</div>
+
+<div class="svc">
+  <div class="svc-name">Meet & Greets</div>
+  <div class="svc-desc">
+    Come and get to know us before you book, either by phonecall or in person!
+  </div>
+  <div class="svc-price">No Charge</div>
+</div>
+
+
+  </div> <!-- /services-grid -->
+</section> <!-- /services-wrap -->
+
+<!-- WHY PET OWNERS LOVE US (under Services) -->
+<section class="love-section">
+  <h2>Why pet owners love us</h2>
+
+  <div class="love-row">
+    <!-- LEFT: Heart photo -->
+    <div class="heart-photo" style="background-image:url('images/dogs/love.png');"></div>
+
+<!-- RIGHT: Love card with heart bullets -->
+<div>
+  <div class="love-card heartbullets" role="region" aria-labelledby="love-title-under">
+    <h3 id="love-title-under" class="love-title" style="margin-top:0;">Friendly, safe & reliable</h3>
+    <ul class="love-list">
+      <li>Fully insured with Petplan</li>
+      <li>Calm, caring environment</li>
+      <li>We honour your routine</li>
+      <li>Regular photo &amp; video updates</li>
+    </ul>
+    <div class="love-actions">
+      <a class ="button"href="booking.html">Book Today</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+```
+
+---
+
+## Where to Find us 📍
+
+```{=html}
+<div class="map-embed">
+  <iframe
+    src="https://www.google.com/maps?q=Friern%20Barnet&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Dog Sit Daily — North London service area">
+  </iframe>
+</div>
+```
+
+
+<div class="container">
+
+## Contact Us 💌
+We'd love to hear from you, whether it's a booking enquiry, to schedule a meet & greet, or you'd like to leave a review. Get in touch via:
+
+- **Email:** <a href="mailto:hello@dogsitdaily.co.uk">hello@dogsitdaily.co.uk</a>  
+
+Check out our socials: 
+
+- **TikTok:** <a href="https://www.tiktok.com/@dogsitdaily" target="_blank">@dogsitdaily</a>  
+
+</div>
+
+---
+```{=html}
+<!-- Small footer logo hero -->
+<section class="hero-mini">
+  <div class="hero-inner">
+    <img src="images/DOGSITDAILY_LOGO.png" alt="Dog Sit Daily" class="logo" />
+  </div>
+</section>
+<div class="container">
+```
+
+
+
+

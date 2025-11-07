@@ -1,0 +1,162 @@
+---
+title: "Testimonials"
+---
+
+Feedback from our lovely pet owners 💕
+
+```{=html}
+<div class="container">
+  <div class="testi-grid">
+
+    <details class="testi-card">
+      <summary>
+        <img src="images/dogs/betty_basil.jpg" alt="Betty and Basil the Briards" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Tricia V. • Boarding</div>
+          <span class="testi-quote">“This was the first time I have ever left my dogs with someone that they don't know but the experience was absolutely brilliant. Olivia is very calm and chilled with them and they clearly enjoyed their time with her — I received pictures and updates which was really helpful and they were clearly given the home from home treatment — so happy and a big thank you to Olivia xx”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Betty & Basil • Briards</div>
+    </details>
+
+    <details class="testi-card">
+      <summary>
+        <img src="images/dogs/denzel.jpg" alt="Denzel the Jack Russell" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Penka H. • Day Care</div>
+          <span class="testi-quote">“Olivia was wonderful, I am so happy with her looking after Denzel on my wedding day. ❤️❤️❤️ I was relaxed and enjoyed my day knowing he was safe with her.”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Denzel • Jack Russell</div>
+    </details>
+
+    <details class="testi-card">
+      <summary>
+        <img src="images/dogs/riley.jpg" alt="Riley the Vizsla" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Helen S. • Day Care</div>
+          <span class="testi-quote">“From the moment we saw Olivia's listing, we felt so positively about her — she seemed so genuine and dog-centric. Happily, our first instincts were spot on; we genuinely couldn't have found a better person to care for Riley. He's such an anxious dog, and on the few occasions he has stayed with friends, it hasn't always worked out well. We were so incredibly lucky to have found Olivia — she is truly someone with a gentle soul, and our Riley instantly hit it off with her (which is a HUGE thing!). She was so patient with all the logistics of the day and adjustments to timings, never once making us feel bad about having to amend things. On the day itself, the photos she shared of Riley resting/playing or sleeping were so reassuring. We would not hesitate to rebook Olivia again — if she'd have our crazy dog again, that is!”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Riley • Vizsla</div>
+    </details>
+    
+    <details class="testi-card">
+      <summary>
+        <img src="images/dogs/theo.jpg" alt="Theo the Cockapoo" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Tolga D. • Boarding</div>
+          <span class="testi-quote">“Theo had the best time at Olivia’s! Olivia provided updates throughout the day and put my mind at such ease (with having an anxious dog). He was so well looked after and had a great time hanging out with Olivia. 1000/10 would highly recommend ⭐.”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Theo • Cockapoo</div>
+    </details>
+    
+        <details class="testi-card">
+      <summary>
+        <img src="images/dogs/milo.jpg" alt="Milo the Chihuahua" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Martha M. • Day Care</div>
+          <span class="testi-quote">“Olivia was amazing with Milo. She sent me videos/pics of Milo & updated me throughout the day. You can tell how much care and love she puts into caring for dogs. I would highly recommend Olivia!”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Milo • Chihuahua</div>
+    </details>
+    
+            <details class="testi-card">
+      <summary>
+        <img src="images/dogs/cassie.jpg" alt="Cassie the Labrador Retriever" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Jade A. • Boarding</div>
+          <span class="testi-quote">“Olivia was so amazing with my lab Cassie. She settled in very quickly and came home happy, calm, and clearly well cared for. I really appreciated the regular updates and photos – it was lovely to see how relaxed Cassie was while I was away. I’d definitely recommend Olivia to anyone looking for a caring and reliable dog sitter. Thank you again!”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Cassie • Labrador Retriever</div>
+    </details>
+    
+                <details class="testi-card">
+      <summary>
+        <img src="images/dogs/bear.jpg" alt="Bear the Rottweiler/German Shepherd" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Marcella H. • Day Care</div>
+          <span class="testi-quote">“I left my dog with Olivia today for 12 hours and was so anxious but Olivia was so nice and welcoming to both me and my dog. She sent me pictures all throughout the day and stayed in regular contact. I definitely recommend her !!!”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Bear • Rottweiler/German Shepherd</div>
+    </details>
+    
+                    <details class="testi-card">
+      <summary>
+        <img src="images/dogs/mili.jpg" alt="Mili the Mixed, Staffordshire Bull Terrier" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Bethany M. • Boarding</div>
+          <span class="testi-quote">“Olivia was incredible with Mili! Totally understood her needs as a slightly anxious dog and they managed to form a bond super quickly!”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Mili • Mixed, Staffordshire Bull Terrier</div>
+    </details>
+    
+                        <details class="testi-card">
+      <summary>
+        <img src="images/dogs/daisy.jpg" alt="Daisy the Labrador Retriever" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Seema I. • Day Care</div>
+          <span class="testi-quote">“Daisy loved her first sitting experience. Thanks Olivia for looking after Daisy and I felt confident leaving her with you.”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Daisy • Labrador Retriever</div>
+    </details>
+    
+                            <details class="testi-card">
+      <summary>
+        <img src="images/dogs/malibu.jpg" alt="Malibu the Alaskan Malamute" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Amir R. • Day Care</div>
+          <span class="testi-quote">“Olivia was very responsive from the start and always tried to work around our schedule. Malibu had lots of fun with her and she kept us informed of how she was doing with photos which was very reassuring. We will keep Olivia our first choice on our next sitter arrangements.”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Malibu • Alaskan Malamute</div>
+    </details>
+    
+                                <details class="testi-card">
+      <summary>
+        <img src="images/dogs/minnie.jpg" alt="Minnie the Jack Russell" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Alexandra D. • Day Care</div>
+          <span class="testi-quote">“I thoroughly recommend Olivia. She is kind, gentle and trustworthy. I will definitely book her again in the future as my dog Minnie was very comfortable with Olivia and came back happy.”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Minnie • Jack Russell</div>
+    </details>
+    
+                                    <details class="testi-card">
+      <summary>
+        <img src="images/dogs/rocco.jpg" alt="Rocco the Labrador Retriever" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Martin & Nisha M. • Day Care</div>
+          <span class="testi-quote">“Rocco can be a bit shy / lacking confidence on his first day care but he had a good day with Olivia and she enjoyed him. She kept in touch throughout the day and he had a few sneaky naps on her couch! I recommend her and intend to use her again”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Rocco • Labrador Retriever</div>
+    </details>
+    
+                                        <details class="testi-card">
+      <summary>
+        <img src="images/dogs/cali.jpg" alt="Cali the Labradoodle" class="testi-photo" loading="lazy">
+        <div class="testi-content">
+          <div class="testi-head">Boonnie B. • Boarding</div>
+          <span class="testi-quote">“Olivia was beyond fabulous. She made our first stay away for our puppy very easy and smoothy. Our puppy was cared for and loved. I would recommend her to anyone and will definitely use her again. Thank you so much Olivia!”</span>
+        </div>
+      </summary>
+      <div class="testi-meta">Cali • Labradoodle</div>
+    </details>
+
+  </div>
+</div>
+
+```
+
+## Leave your review
+
+We’d love to hear how your dog enjoyed their stay.  
+👉 <a href="https://forms.gle/REPLACE_WITH_YOUR_GOOGLE_FORM_ID" target="_blank">Leave a Review</a>

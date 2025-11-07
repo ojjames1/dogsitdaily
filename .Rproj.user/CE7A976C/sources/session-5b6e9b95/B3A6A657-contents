@@ -1,0 +1,55 @@
+---
+title: ""
+title-block: true
+---
+```{=html}
+<div class="container">
+
+<section class="about-intro" style="display:flex; flex-wrap:wrap; align-items:center; gap:24px;">
+
+  <!-- round profile image -->
+  <img src="images/me.jpg"
+       alt="Olivia with Great Dane Gigi"
+       style="width:220px; height:220px; object-fit:cover; border-radius:20%; box-shadow:0 6px 18px rgba(0,0,0,.08);" />
+
+  <div style="flex:1; min-width:260px;">
+    <h1>About Me</h1>
+
+    <p>Hi, I’m <strong>Olivia</strong> — the dog-crazy person behind <strong>Dog Sit Daily</strong>. I’m a calm, detail-oriented carer who treats every dog like my own. I’m experienced with dogs of all ages, from lively puppies to wise seniors, and I’ve always had dogs in my home. Pet sitting is a service I once relied on myself, so I understand how life-changing it is to have someone you truly trust looking after your dog — especially if they have separation anxiety!</p>
+
+    <p>Whether your dog needs a walk, a cosy place to stay, or just some company while you’re away, I’m here to help. I’ve attended many group and 1:1 training sessions, picked up plenty of tips and tricks, and know how to build confidence in anxious dogs. Every dog has their own personality — my goal is to make each one feel safe, comfortable, and happy while they’re with me.</p>
+  </div>
+</section>
+```
+---
+
+## My Approach
+
+<ul style="margin-top:8px;">
+<li>✔️ 15 years’ experience with puppies through seniors (including anxious dogs)</li>
+<li>✔️ Walks tailored to age and energy — even on rainy days!</li>
+<li>✔️ Small numbers only — quality over quantity</li>
+<li>✔️ Honest, regular updates (photos, messages, progress notes)</li>
+<li>✔️ First-aid aware and fully insured with Petplan</li>
+</ul>
+
+---
+
+## Home Setup
+
+<p>
+I live in a relaxed, calm home with a secure garden and plenty of space for play and downtime.  
+If your dog has specific needs — medication, crate training, recall work, or feeding routines — I’ll always follow your plan so they feel safe and understood.
+</p>
+
+
+---
+```{=html}
+<!-- Small footer logo hero -->
+<section class="hero-mini">
+  <div class="hero-inner">
+    <img src="images/DOGSITDAILY_LOGO.png" alt="Dog Sit Daily" class="logo" />
+  </div>
+</section>
+<div class="container">
+```
