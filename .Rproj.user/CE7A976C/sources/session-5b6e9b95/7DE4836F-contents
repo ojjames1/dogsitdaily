@@ -65,7 +65,7 @@ title-block: true
 
   <div class="love-row">
     <!-- LEFT: Heart photo -->
-    <div class="heart-photo" style="background-image:url('images/dogs/love.png');"></div>
+    <div class="heart-photo" style="background-image:url('images/dogs/bear.jpg');"></div>
 
 <!-- RIGHT: Love card with heart bullets -->
 <div>

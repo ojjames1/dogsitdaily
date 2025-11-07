@@ -13,16 +13,14 @@ website:
     logo: images/DOGSITDAILY_LOGO.png
     collapse: true
     right:
-      - text: "Menu"
-        menu:
-          - text: "Home"
-            href: index.qmd
-          - text: "About"
-            href: about.qmd
-          - text: "Testimonials"
-            href: testimonials.qmd
-          - text: "Booking"
-            href: booking.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Testimonials"
+        href: testimonials.qmd
+      - text: "Booking"
+        href: booking.qmd
 
   page-footer:
     left: |

@@ -286,3 +286,14 @@ img.round{ border-radius:var(--radius); }
 .hero-mini .logo{ max-width: 200px; width: 100%; height:auto; border-radius:0; }
 .hero-mini .badge-insured{ height: 28px; border-radius: 6px; }
 
+/* Simple 3-line hamburger using box-shadow */
+.navbar-toggler-icon {
+  background-image: none !important;
+  width: 1.5em;
+  height: 2px;
+  background-color: var(--darksage);
+  border-radius: 2px;
+  box-shadow:
+    0 6px 0 0 var(--darksage),
+    0 12px 0 0 var(--darksage);
+}
