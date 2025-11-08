@@ -114,6 +114,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./booking.html"> 
 <span class="menu-text">Booking</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./enquiry.html"> 
+<span class="menu-text">Enquiry Form</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -157,6 +161,7 @@ ul.task-list li input[type="checkbox"] {
     Photos &amp; updates included.
   </div>
   <div class="svc-price">From £35/day</div>
+  <div class="svc-book"><a href="https://app.acuityscheduling.com/schedule.php?owner=37449400&amp;appointmentType=85431349" target="_blank" class="btn">Book Now</a></div>
 </div>
 
 <div class="svc">
@@ -166,6 +171,7 @@ ul.task-list li input[type="checkbox"] {
     Photos &amp; updates included.
   </div>
   <div class="svc-price">From £45/night</div>
+  <div class="svc-book"><a href="https://app.acuityscheduling.com/schedule.php?owner=37449400&amp;appointmentType=85431424" target="_blank" class="btn">Book Now</a></div>
 </div>
 
 <div class="svc">
@@ -180,28 +186,29 @@ ul.task-list li input[type="checkbox"] {
     Come and get to know us before you book, either by phonecall or in person!
   </div>
   <div class="svc-price">No Charge</div>
+  <div class="svc-book"><a href="enquiry.html" class="btn-enquiry">Enquire Now</a>
 </div>
 
 
   </div> <!-- /services-grid -->
-</section> <!-- /services-wrap -->
+</div></section> <!-- /services-wrap -->
 
 <!-- WHY PET OWNERS LOVE US (under Services) -->
 <section class="love-section">
-  <h2 class="anchored">Why pet owners love us</h2>
+  <h2 class="anchored">Why Dog Owners Love us 💛</h2>
 
   <div class="love-row">
     <!-- LEFT: Heart photo -->
-    <div class="heart-photo" style="background-image:url('images/dogs/bear.jpg');"></div>
+    <div class="heart-photo" style="background-image:url('images/dogs/cali.jpg');"></div>
 
 <!-- RIGHT: Love card with heart bullets -->
 <div>
   <div class="love-card heartbullets" role="region" aria-labelledby="love-title-under">
-    <h3 id="love-title-under" class="love-title anchored" style="margin-top:0;">Friendly, safe &amp; reliable</h3>
+    <h3 id="love-title-under" class="love-title anchored" style="margin-top:0;">Friendly, Safe &amp; Reliable</h3>
     <ul class="love-list">
       <li>Fully insured with Petplan</li>
       <li>Calm, caring environment</li>
-      <li>We honour your routine</li>
+      <li>Your dog's routine comes first</li>
       <li>Regular photo &amp; video updates</li>
     </ul>
     <div class="love-actions">
@@ -220,18 +227,34 @@ ul.task-list li input[type="checkbox"] {
   <iframe src="https://www.google.com/maps?q=Friern%20Barnet&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dog Sit Daily — North London service area">
   </iframe>
 </div>
+<section class="enquiry">
+  <h2 class="anchored">Get in Touch 💌</h2>
+  <a> I'd love to hear from you, whether it's a booking inquiry, to schedule a meet &amp; greet, or you'd just like more info! I aim to get back to you in 24hrs. </a>
+  
+  <form action="YOUR_FORMSPREE_CONTACT_ENDPOINT" method="POST" accept-charset="UTF-8">
+    <label for="ct-name">Your Name</label>
+    <input id="ct-name" name="Your name" type="text" required="" placeholder="Celaena Sardothien">
+
+    <label for="ct-dog">Your Dog’s Name &amp; Breed</label>
+    <input id="ct-dog" name="Dog name &amp; breed" type="text" placeholder="Fleetfoot, Mixed Hound">
+
+    <label for="ct-msg">Enquiry</label>
+    <textarea id="ct-msg" name="Enquiry" rows="4" required="" placeholder="Hi, I'm looking for day care on 1st May, can I book a meet &amp; greet?"></textarea>
+
+    <input type="hidden" name="_subject" value="Dog Sit Daily — Homepage enquiry">
+    <input type="hidden" name="_template" value="table">
+
+    <div class="hp" aria-hidden="true">
+      <label>Leave this field empty</label>
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+    </div>
+
+    <button type="submit">Send message</button>
+  </form>
 </section>
-<section id="contact-us" class="level2 container">
-<h2 class="anchored" data-anchor-id="contact-us">Contact Us 💌</h2>
-<p>We’d love to hear from you, whether it’s a booking enquiry, to schedule a meet &amp; greet, or you’d like to leave a review. Get in touch via:</p>
-<ul>
-<li><strong>Email:</strong> <a href="mailto:hello@dogsitdaily.co.uk">hello@dogsitdaily.co.uk</a></li>
-</ul>
-<p>Check out our socials:</p>
-<ul>
-<li><strong>TikTok:</strong> <a href="https://www.tiktok.com/@dogsitdaily" target="_blank"><span class="citation" data-cites="dogsitdaily">@dogsitdaily</span></a></li>
-</ul>
-</section>
+<div class="container">
+<p><strong>Email me 👉</strong> <a href="mailto:hello@dogsitdaily.co.uk">hello@dogsitdaily.co.uk</a></p>
+</div>
 <hr>
 <!-- Small footer logo hero -->
 <section class="hero-mini">
@@ -242,8 +265,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="container">
 
 
+</div></section>
 
-</div></div></main> <!-- /main -->
+</div></main> <!-- /main -->
 <!-- Lightbox markup -->
 <div class="lightbox-backdrop" id="lb">
   <img class="lightbox-img" id="lbImg" alt="">

@@ -21,6 +21,8 @@ website:
         href: testimonials.qmd
       - text: "Booking"
         href: booking.qmd
+      - text: "Enquiry Form"
+        href: enquiry.qmd
 
   page-footer:
     left: |

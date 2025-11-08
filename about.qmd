@@ -15,41 +15,106 @@ title-block: true
   <div style="flex:1; min-width:260px;">
     <h1>About Me</h1>
 
-    <p>Hi, I’m <strong>Olivia</strong> — the dog-crazy person behind <strong>Dog Sit Daily</strong>. I’m a calm, detail-oriented carer who treats every dog like my own. I’m experienced with dogs of all ages, from lively puppies to wise seniors, and I’ve always had dogs in my home. Pet sitting is a service I once relied on myself, so I understand how life-changing it is to have someone you truly trust looking after your dog — especially if they have separation anxiety!</p>
+    <p>Hi, I’m <strong>Olivia</strong> — dog sitter and founder of <strong>Dog Sit Daily</strong>. I’m a calm, detail-oriented carer who treats every dog like my own. I don't currently have any dogs of my own at home but dog sitting is a service I previously relied on, so I understand how life-changing it is to have someone you truly trust looking after your dog — especially if they have separation anxiety!</p>
 
-    <p>Whether your dog needs a walk, a cosy place to stay, or just some company while you’re away, I’m here to help. I’ve attended many group and 1:1 training sessions, picked up plenty of tips and tricks, and know how to build confidence in anxious dogs. Every dog has their own personality — my goal is to make each one feel safe, comfortable, and happy while they’re with me.</p>
+    <p>Whether your dog needs a walk, a cosy place to stay, <strong>I’ll be your dog's best friend while you're away</strong>. I’m experienced with puppies through seniors, including nervous and anxious dogs. I’ve learned from group classes and 1:1 training, and I’m big on clear routines, enrichment and gentle confidence-building. Every dog is different — my goal is for yours to feel safe, relaxed and happy from the moment they arrive.</p>
+    
+    <p> I live in a relaxed, calm home with a secure garden. If your dog has specific needs — medication, crate training, recall work, or feeding routines — I’ll always follow your plan so they feel safe and understood.</p>
   </div>
-</section>
-```
----
+  
+  <div class="enquiry-btn">
+  <a href="testimonials.html" class="btn-enquiry">Have a look at my reviews →</a>
+</div>
 
-## My Approach
+</section>
+
+<hr/>
+<h2>My Approach</h2>
 
 <ul style="margin-top:8px;">
-<li>✔️ 15 years’ experience with puppies through seniors (including anxious dogs)</li>
 <li>✔️ Walks tailored to age and energy — even on rainy days!</li>
 <li>✔️ Small numbers only — quality over quantity</li>
 <li>✔️ Honest, regular updates (photos, messages, progress notes)</li>
 <li>✔️ First-aid aware and fully insured with Petplan</li>
 </ul>
 
----
+<hr/>
+<!-- Photo reel -->
+<h2>Photo Reel 📸</h2>
+<p style="margin-top:-4px;"></p>
 
-## Home Setup
+<div class="carousel" aria-label="Dog Sit Daily photo carousel">
+  <button class="arrow prev" aria-label="Previous">‹</button>
+  <button class="arrow next" aria-label="Next">›</button>
 
-<p>
-I live in a relaxed, calm home with a secure garden and plenty of space for play and downtime.  
-If your dog has specific needs — medication, crate training, recall work, or feeding routines — I’ll always follow your plan so they feel safe and understood.
-</p>
+  <div class="carousel-track">
+    <div class="carousel-slide"><img src="images/gallery/1.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/2.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/3.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/4.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/5.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/6.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/7.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/8.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/9.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/10.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/11.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/12.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/13.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/14.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/15.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/16.jpg" loading="lazy"></div>
+    <div class="carousel-slide"><img src="images/gallery/17.jpg" loading="lazy"></div>
+  </div>
+
+  <div class="carousel-nav">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+  </div>
+</div>
 
 
----
-```{=html}
 <!-- Small footer logo hero -->
 <section class="hero-mini">
   <div class="hero-inner">
     <img src="images/DOGSITDAILY_LOGO.png" alt="Dog Sit Daily" class="logo" />
   </div>
 </section>
-<div class="container">
+
+</div>
 ```
+
+<script>
+(function () {
+  const carousel = document.querySelector('.carousel');
+  if (!carousel) return;
+
+  const track = carousel.querySelector('.carousel-track');
+  const slides = Array.from(track.children);
+  const prev = carousel.querySelector('.arrow.prev');
+  const next = carousel.querySelector('.arrow.next');
+
+  const slideWidth = () => track.clientWidth;
+
+  const currentIndex = () => {
+    const w = track.clientWidth;
+    return Math.round(track.scrollLeft / Math.max(1, w));
+  };
+
+  const goTo = (i) => {
+    const n = slides.length;
+    const target = ((i % n) + n) % n; // wrap
+    track.scrollTo({ left: target * slideWidth(), behavior: 'smooth' });
+  };
+
+  prev.addEventListener('click', (e) => { e.preventDefault(); goTo(currentIndex() - 1); });
+  next.addEventListener('click', (e) => { e.preventDefault(); goTo(currentIndex() + 1); });
+
+  // Keep the current slide aligned when resizing
+  let resizeTO;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTO);
+    resizeTO = setTimeout(() => goTo(currentIndex()), 150);
+  });
+})();
+</script>
+

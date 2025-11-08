@@ -114,6 +114,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./booking.html"> 
 <span class="menu-text">Booking</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./enquiry.html"> 
+<span class="menu-text">Enquiry Form</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -298,13 +302,42 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
-<section id="leave-your-review" class="level2">
-<h2 class="anchored" data-anchor-id="leave-your-review">Leave your review</h2>
-<p>We’d love to hear how your dog enjoyed their stay.<br>
-👉 <a href="https://forms.gle/REPLACE_WITH_YOUR_GOOGLE_FORM_ID" target="_blank">Leave a Review</a></p>
+<section class="enquiry">
+  <h1>Leave a Review 🐾</h1>
+  <p>We’d love to hear about your dog’s stay and feature you in our testimonials!</p>
 
+  <form action="YOUR_FORMSPREE_REVIEW_ENDPOINT" method="POST" accept-charset="UTF-8">
+    <label for="name">Your name*</label>
+    <input id="name" name="Name" type="text" required="">
 
+    <label for="dog">Dog’s name*</label>
+    <input id="dog" name="Dog name" type="text" required="">
+
+    <label for="rating">Rating*</label>
+    <select id="rating" name="Rating" required="">
+      <option value="">Select…</option>
+      <option>⭐️⭐️⭐️⭐️⭐️</option>
+      <option>⭐️⭐️⭐️⭐️</option>
+      <option>⭐️⭐️⭐️</option>
+      <option>⭐️⭐️</option>
+      <option>⭐️</option>
+    </select>
+
+    <label for="message">Your review*</label>
+    <textarea id="message" name="Review" rows="5" placeholder="Tell us about your experience!" required=""></textarea>
+
+    <input type="hidden" name="_subject" value="Dog Sit Daily — New Review">
+    <input type="hidden" name="_template" value="table">
+
+    <div class="hp" aria-hidden="true">
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+    </div>
+
+    <button type="submit">Submit review</button>
+  </form>
 </section>
+
+
 
 </main> <!-- /main -->
 <!-- Lightbox markup -->

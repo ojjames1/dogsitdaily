@@ -1,0 +1,124 @@
+---
+title: ""
+title-block: true
+---
+
+```{=html}
+<section class="enquiry">
+  <h1>New Client Enquiry </h1>
+  <p>Please tell us a little about your dog 🐾</p>
+
+  <form action="https://formspree.io/f/xeovjgdq" method="POST" accept-charset="UTF-8">
+ <!-- Contact details -->
+    <label for="owner-name">Your name*</label>
+    <input id="owner-name" name="Owner name" type="text" required>
+
+    <label for="email">Email*</label>
+    <input id="email" name="Email" type="email" required>
+
+    <label for="phone">Phone (optional)</label>
+    <input id="phone" name="Phone" type="tel" inputmode="tel" placeholder="07…">
+
+    <!-- Dog basics -->
+    <label for="dog-name">Dog’s name*</label>
+    <input id="dog-name" name="Dog name" type="text" required>
+
+    <label for="breed">Breed*</label>
+    <input id="breed" name="Breed" type="text" required>
+
+    <!-- Behaviour & welfare -->
+    <label for="sex">Male or female?*</label>
+    <select id="sex" name="Sex" required>
+      <option value="">Select…</option>
+      <option>Female</option>
+      <option>Male</option>
+    </select>
+
+    <label for="neutered">Spayed / neutered?*</label>
+    <select id="neutered" name="Spayed/Neutered" required>
+      <option value="">Select…</option>
+      <option>Yes</option>
+      <option>No</option>
+      <option>Not sure</option>
+    </select>
+
+    <label for="friendly">Is your dog friendly / OK around other dogs?*</label>
+    <select id="friendly" name="Dog friendly with others" required>
+      <option value="">Select…</option>
+      <option>Yes</option>
+      <option>No</option>
+      <option>Depends</option>
+    </select>
+
+    <div id="friendly-notes-wrap" style="display:none;">
+      <label for="friendly-notes">If “No” or “Depends”, please add details</label>
+      <textarea id="friendly-notes" name="Dog friendliness details" rows="3" placeholder="e.g., fine with females, anxious around entire males"></textarea>
+    </div>
+
+    <label for="house-trained">House trained?*</label>
+    <select id="house-trained" name="House trained" required>
+      <option value="">Select…</option>
+      <option>Yes</option>
+      <option>No</option>
+      <option>Mostly / working on it</option>
+    </select>
+
+    <label for="microchipped">Microchipped?*</label>
+    <select id="microchipped" name="Microchipped" required>
+      <option value="">Select…</option>
+      <option>Yes</option>
+      <option>No</option>
+      <option>Not sure</option>
+    </select>
+
+    <label for="vet-info">Vet information</label>
+    <textarea id="vet-info" name="Vet information" rows="3" placeholder="Practice name & phone"></textarea>
+
+    <!-- Dates / notes -->
+    <label for="dates">Dates / days you’re enquiring about</label>
+    <input id="dates" name="Dates requested" type="text" placeholder="e.g. 14–16 Nov, or Mon/Wed day care">
+
+    <label for="notes">Additional info</label>
+    <textarea id="notes" name="Additional info" rows="5" placeholder="Temperament, anxiety, routines, health conditions, meds, anything else I should know"></textarea>
+
+    <label for="meet">Would you like a meet & greet?</label>
+    <select id="meet" name="Meet & greet">
+      <option value="Phone call">Phone call</option>
+      <option value="In-person">In-person</option>
+      <option value="Not needed">Not needed</option>
+    </select>
+
+    <!-- Consent -->
+    <div class="checkbox">
+      <input id="consent" type="checkbox" name="Consent" value="Yes" required>
+      <label for="consent">I consent to Dog Sit Daily contacting me about my enquiry.</label>
+    </div>
+
+    <!-- Formspree helpers -->
+    <input type="hidden" name="_subject" value="Dog Sit Daily — New Enquiry">
+    <input type="hidden" name="_template" value="table">
+    <!-- <input type="hidden" name="_redirect" value="https://dogsitdaily.co.uk/thanks.html"> -->
+
+    <!-- Honeypot (spam protection) -->
+    <div class="hp" aria-hidden="true">
+      <label>Leave this field empty</label>
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+    </div>
+
+    <button type="submit">Send enquiry</button>
+    <p class="form-hint">I aim to reply within 24hrs 💌</p>
+  </form>
+</section>
+```
+
+<script>
+  (function () {
+    const friendly = document.getElementById('friendly');
+    const wrap = document.getElementById('friendly-notes-wrap');
+    function toggleNotes() {
+      wrap.style.display = friendly.value && friendly.value !== '' ? 'block' : 'none';
+    }
+    friendly.addEventListener('change', toggleNotes);
+    toggleNotes();
+  })();
+</script>
