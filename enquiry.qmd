@@ -52,7 +52,7 @@ title-block: true
 
     <div id="friendly-notes-wrap" style="display:none;">
       <label for="friendly-notes">If “No” or “Depends”, please add details</label>
-      <textarea id="friendly-notes" name="Dog friendliness details" rows="3" placeholder="e.g., fine with females, anxious around entire males"></textarea>
+      <textarea id="friendly-notes" name="Dog friendliness details" rows="3" placeholder="e.g., fine with females, anxious around males"></textarea>
     </div>
 
     <label for="house-trained">House trained?*</label>

@@ -150,6 +150,7 @@ title-block: true
 
     <input type="hidden" name="_subject" value="Dog Sit Daily — Homepage enquiry">
     <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_redirect" value="https://dogsitdaily.co.uk/thanks.html">
 
     <div class="hp" aria-hidden="true">
       <label>Leave this field empty</label>
@@ -175,7 +176,3 @@ title-block: true
 </section>
 <div class="container">
 ```
-
-
-
-

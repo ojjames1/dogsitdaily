@@ -1,5 +1,6 @@
 ---
-title: "Thanks"
+title: ""
+title-block: true
 page-navigation: false
 toc: false
 listing: false
@@ -7,7 +8,7 @@ sidebar: false
 ---
 
 ```{=html}
-<section class="container" style="text-align:center; padding:60px 20px;">
+<section class="container thanks" style="text-align:center; padding:60px 20px;">
   <h1>Thank you! 🐾</h1>
   <p>Your form has been sent successfully.</p>
   <p>I’ll get back to you as soon as possible — usually within 24 hours 💌</p>
