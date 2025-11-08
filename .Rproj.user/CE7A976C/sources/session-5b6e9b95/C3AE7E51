@@ -3,7 +3,7 @@
     "path": "~/dogsitdaily-site/booking.qmd",
     "project_path": "booking.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3275152926",
     "contents": "",
     "dirty": false,
     "created": 1762345860501.0,
@@ -17,16 +17,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "10,0",
+        "cursorPosition": "11,54",
         "scrollLine": "0",
         "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1762622516,
+    "lastKnownWriteTime": 1762638243,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1762622516648,
+    "last_content_update": 1762638243681,
     "read_only": false,
     "read_only_alternatives": []
 }

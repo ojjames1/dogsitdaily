@@ -44,7 +44,7 @@ title-block: true
 </div>
 
 <div class="svc">
-  <div class="svc-name">Group walks</div>
+  <div class="svc-name">Group Walks</div>
   <div class="svc-desc">Coming soon!</div>
   <div class="svc-price">From £—</div>
 </div>
@@ -112,7 +112,7 @@ title-block: true
   <h2>Get in Touch 💌</h2>
   <a> I'd love to hear from you, whether it's a booking inquiry, to schedule a meet & greet, or you'd just like more info! I aim to get back to you in 24hrs. </a>
   
-  <form action="YOUR_FORMSPREE_CONTACT_ENDPOINT" method="POST" accept-charset="UTF-8">
+  <form action="https://formspree.io/f/xgvrwkjo" method="POST" accept-charset="UTF-8">
     <label for="ct-name">Your Name</label>
     <input
       id="ct-name"
@@ -120,6 +120,15 @@ title-block: true
       type="text"
       required
       placeholder="Celaena Sardothien"
+    >
+    
+    <label for="ct-email">Email Address</label>
+    <input
+      id="ct-email"
+      name="Email address"
+      type="text"
+      required
+      placeholder="c.sardothien@terrasen.com"
     >
 
     <label for="ct-dog">Your Dog’s Name & Breed</label>

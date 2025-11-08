@@ -9,7 +9,7 @@ I run a small, safe setup — so returning clients can **book instantly**<br>
 I ask **new clients to complete a short form** first so we can make sure we’re a great match. 🐶🐾
 
 <div class="enquiry-btn">
-  <a href="enquiry.html" class="btn-enquiry">Complete the New Client Enquiry Form →</a>
+  <a href="enquiry.html" class="btn-enquiry">Complete New Client Enquiry Form →</a>
 </div>
 
 ## Returning customer?
