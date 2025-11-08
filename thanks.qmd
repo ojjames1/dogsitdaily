@@ -1,0 +1,31 @@
+---
+title: "Thanks"
+page-navigation: false
+toc: false
+listing: false
+sidebar: false
+---
+
+```{=html}
+<section class="container" style="text-align:center; padding:60px 20px;">
+  <h1>Thank you! 🐾</h1>
+  <p>Your form has been sent successfully.</p>
+  <p>I’ll get back to you as soon as possible — usually within 24 hours 💌</p>
+
+  <a href="index.html" class="btn-enquiry" style="margin-top:20px; display:inline-block;">
+    ← Back to home
+  </a>
+</section>
+```
+
+---
+
+```{=html}
+<!-- Small footer logo hero -->
+<section class="hero-mini">
+  <div class="hero-inner">
+    <img src="images/DOGSITDAILY_LOGO.png" alt="Dog Sit Daily" class="logo" />
+  </div>
+</section>
+<div class="container">
+```

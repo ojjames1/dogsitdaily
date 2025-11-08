@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>enquiry – Dog Sit Daily</title>
+<title>Thanks – Dog Sit Daily</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Booking</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./enquiry.html" aria-current="page"> 
+    <a class="nav-link" href="./enquiry.html"> 
 <span class="menu-text">Enquiry Form</span></a>
   </li>  
 </ul>
@@ -131,131 +131,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Thanks</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
 
-<section class="enquiry">
-  <h1>New Client Enquiry </h1>
-  <p>Please tell us a little about your dog 🐾</p>
+    
+  
+    
+  </div>
+  
 
-  <form action="https://formspree.io/f/xeovjgdq" method="POST" accept-charset="UTF-8">
- <!-- Contact details -->
-    <label for="owner-name">Your name*</label>
-    <input id="owner-name" name="Owner name" type="text" required="">
 
-    <label for="email">Email*</label>
-    <input id="email" name="Email" type="email" required="">
+</header>
 
-    <label for="phone">Phone (optional)</label>
-    <input id="phone" name="Phone" type="tel" inputmode="tel" placeholder="07…">
 
-    <!-- Dog basics -->
-    <label for="dog-name">Dog’s name*</label>
-    <input id="dog-name" name="Dog name" type="text" required="">
+<section class="container" style="text-align:center; padding:60px 20px;">
+  <h1>Thank you! 🐾</h1>
+  <p>Your form has been sent successfully.</p>
+  <p>I’ll get back to you as soon as possible — usually within 24 hours 💌</p>
 
-    <label for="breed">Breed*</label>
-    <input id="breed" name="Breed" type="text" required="">
-
-    <!-- Behaviour & welfare -->
-    <label for="sex">Male or female?*</label>
-    <select id="sex" name="Sex" required="">
-      <option value="">Select…</option>
-      <option>Female</option>
-      <option>Male</option>
-    </select>
-
-    <label for="neutered">Spayed / neutered?*</label>
-    <select id="neutered" name="Spayed/Neutered" required="">
-      <option value="">Select…</option>
-      <option>Yes</option>
-      <option>No</option>
-      <option>Not sure</option>
-    </select>
-
-    <label for="friendly">Is your dog friendly / OK around other dogs?*</label>
-    <select id="friendly" name="Dog friendly with others" required="">
-      <option value="">Select…</option>
-      <option>Yes</option>
-      <option>No</option>
-      <option>Depends</option>
-    </select>
-
-    <div id="friendly-notes-wrap" style="display:none;">
-      <label for="friendly-notes">If “No” or “Depends”, please add details</label>
-      <textarea id="friendly-notes" name="Dog friendliness details" rows="3" placeholder="e.g., fine with females, anxious around entire males"></textarea>
-    </div>
-
-    <label for="house-trained">House trained?*</label>
-    <select id="house-trained" name="House trained" required="">
-      <option value="">Select…</option>
-      <option>Yes</option>
-      <option>No</option>
-      <option>Mostly / working on it</option>
-    </select>
-
-    <label for="microchipped">Microchipped?*</label>
-    <select id="microchipped" name="Microchipped" required="">
-      <option value="">Select…</option>
-      <option>Yes</option>
-      <option>No</option>
-      <option>Not sure</option>
-    </select>
-
-    <label for="vet-info">Vet information</label>
-    <textarea id="vet-info" name="Vet information" rows="3" placeholder="Practice name &amp; phone"></textarea>
-
-    <!-- Dates / notes -->
-    <label for="dates">Dates / days you’re enquiring about</label>
-    <input id="dates" name="Dates requested" type="text" placeholder="e.g. 14–16 Nov, or Mon/Wed day care">
-
-    <label for="notes">Additional info</label>
-    <textarea id="notes" name="Additional info" rows="5" placeholder="Temperament, anxiety, routines, health conditions, meds, anything else I should know"></textarea>
-
-    <label for="meet">Would you like a meet &amp; greet?</label>
-    <select id="meet" name="Meet &amp; greet">
-      <option value="Phone call">Phone call</option>
-      <option value="In-person">In-person</option>
-      <option value="Not needed">Not needed</option>
-    </select>
-
-    <!-- Consent -->
-    <div class="checkbox">
-      <input id="consent" type="checkbox" name="Consent" value="Yes" required="">
-      <label for="consent">I consent to Dog Sit Daily contacting me about my enquiry.</label>
-    </div>
-
-    <!-- Formspree helpers -->
-    <input type="hidden" name="_subject" value="Dog Sit Daily — New Enquiry">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_redirect" value="https://dogsitdaily.co.uk/thanks.html">
-
-    <!-- Honeypot (spam protection) -->
-    <div class="hp" aria-hidden="true">
-      <label>Leave this field empty</label>
-      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
-    </div>
-
-    <button type="submit">Send enquiry</button>
-    <p class="form-hint">I aim to reply within 24hrs 💌</p>
-  </form>
+  <a href="index.html" class="btn-enquiry" style="margin-top:20px; display:inline-block;">
+    ← Back to home
+  </a>
 </section>
-<script>
-  (function () {
-    const friendly = document.getElementById('friendly');
-    const wrap = document.getElementById('friendly-notes-wrap');
-    function toggleNotes() {
-      wrap.style.display = friendly.value && friendly.value !== '' ? 'block' : 'none';
-    }
-    friendly.addEventListener('change', toggleNotes);
-    toggleNotes();
-  })();
-</script>
+<hr>
+<!-- Small footer logo hero -->
+<section class="hero-mini">
+  <div class="hero-inner">
+    <img src="images/DOGSITDAILY_LOGO.png" alt="Dog Sit Daily" class="logo">
+  </div>
+</section>
+<div class="container">
 
 
 
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <!-- Lightbox markup -->
 <div class="lightbox-backdrop" id="lb">
   <img class="lightbox-img" id="lbImg" alt="">

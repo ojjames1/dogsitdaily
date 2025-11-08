@@ -97,7 +97,7 @@ title-block: true
     <!-- Formspree helpers -->
     <input type="hidden" name="_subject" value="Dog Sit Daily — New Enquiry">
     <input type="hidden" name="_template" value="table">
-    <!-- <input type="hidden" name="_redirect" value="https://dogsitdaily.co.uk/thanks.html"> -->
+    <input type="hidden" name="_redirect" value="https://dogsitdaily.co.uk/thanks.html">
 
     <!-- Honeypot (spam protection) -->
     <div class="hp" aria-hidden="true">
