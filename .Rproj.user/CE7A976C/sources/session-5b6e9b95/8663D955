@@ -3,7 +3,7 @@
     "path": "~/dogsitdaily-site/styles.css",
     "project_path": "styles.css",
     "type": "css",
-    "hash": "2853801949",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1762450175449.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "476,0",
-        "scrollLine": "451"
+        "cursorPosition": "10,13",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1762640510,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1762640510376,
+    "last_content_update": 1762678534792,
     "read_only": false,
     "read_only_alternatives": []
 }

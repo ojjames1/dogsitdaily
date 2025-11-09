@@ -19,12 +19,9 @@ Use our live calendar and make payment securely.
 
 ```{=html}
 <section class="booking-wrap">
-  <iframe
-    src="https://app.acuityscheduling.com/schedule.php?owner=37449400"
-    width="100%"
-    height="800"
-    frameborder="0"
-    title="Book with Dog Sit Daily">
+  <iframe 
+    src="https://www.supersaas.com/schedule/DogSitDaily/appointments" 
+    width="100%" height="900" frameborder="0" style="border-radius:12px;">
   </iframe>
 </section>
 ```
@@ -34,7 +31,7 @@ Use our live calendar and make payment securely.
 
 ## Our Cancellation Policy
 
-We understand that sometimes things change, so if you do need to cancel or amend your booking, please get in touch within 48hours of the booking start time for a full refund. Any cancellations or amendments made after this time will be subject to a £20 fee. 
+We understand that sometimes things change, so if you do need to cancel or amend your booking, please get in touch within 48hours of the booking start time for a full refund. Any cancellations made after this time may be subject to a £20 fee. 
 
 </div>
 
