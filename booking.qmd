@@ -56,15 +56,6 @@ We recommend choosing <strong>“Pay by Bank”</strong> at checkout — it’s 
       Pay Now →
     </a>
   </div>
-  
-      <!-- Extended Rate -->
-  <div class="product-card">
-    <h3>Extended Rate (+2-6hrs)⏰</h3>
-    <p class="price">£22.50</p>
-    <a href="https://buy.stripe.com/8x24gA6Bu6pe4PAbFw4c803" target="_blank" class="btn-enquiry2">
-      Pay Now →
-    </a>
-  </div>
 ```
 </div>
 
